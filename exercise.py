@@ -14,6 +14,14 @@ class BankAccount:
         return f"{self.account_no} - balance : {self.balance}"
 
 
+    def withdrawfunction(self, withdraw)
+        return new_balance = self.balance - withdraw 
+
+
+    def depositfunction(self, deposit)
+        return new_balance = self.balance + deposit 
+
+
 new_account = BankAccount('Ali', 1000)
 
 print(new_account)
